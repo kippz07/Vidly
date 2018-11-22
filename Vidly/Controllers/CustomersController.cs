@@ -52,7 +52,7 @@ namespace Vidly.Controllers
             
             _context.SaveChanges();
 
-            return RedirectToAction("Index", "Customer");
+            return RedirectToAction("Index", "Customers");
         }
 
         public ActionResult Edit(int id)
